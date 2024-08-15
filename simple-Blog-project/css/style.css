@@ -1,0 +1,7 @@
+/* top-card style Start */
+.card-img-top{
+    width:100%;
+    object-fit:cover;
+    object-position: center;
+}
+/* top-card style  End*/
