@@ -1,7 +1,15 @@
 /* top-card style Start */
-.card-img-top{
+.card-img-top,.card-left,img{
     width:100%;
     object-fit:cover;
     object-position: center;
+}
+
+.img{
+    height:200px;
+}
+
+.article a{
+    color:#666;
 }
 /* top-card style  End*/

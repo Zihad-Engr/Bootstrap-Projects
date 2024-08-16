@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+        <!-- navbar section start -->
+
+
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">Simple-Blog</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar section End -->
+  
+
+          <!-- banner-section start  -->
+
+          <div class="container my-4">
+            <img src="./img/banner.webp" alt="banner" class="img">
+
+          </div>
+
+          <!-- banner-section End  -->
+
+
+
+          <!-- main section start -->
+          <main class="container">
+            <div class="row my-4">
+              <!-- list group  -->
+              
+              <div class="col-lg-8 py-4 offset-2">
+                  <h1>contact with me</h1>
+                  
+                  <form class="row g-3">
+                    <div class="col-md-4">
+                      <label for="validationDefault01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationDefault02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationDefaultUsername" class="form-label">Email</label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationDefault03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationDefault03" required>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationDefault04" class="form-label">State</label>
+                      <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationDefault05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationDefault05" required>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating mb-1">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                          </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                        
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
+                
+                  </div>
+                  
+              
+            </div>
+          </main>
+
+          <!-- main section End -->
+
+            <!-- footer section start  -->
+
+        
+            <footer class="w-100 bg-dark py-4">
+                <div class="container-md">
+                    <h1 class="text-white">Simple - Blog</h1>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="lead text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, cum aspernatur totam eligendi soluta quia dolores? Odit temporibus quam eos eaque sequi, reiciendis quaerat </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="d-md-flex ms-lg-5">
+                                <li><a class="text-secondary nav-link me-2" href="./about.html">About</a></li>
+                                <li><a class="text-secondary nav-link" href="./contact.html">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+        </footer>
+            <!-- footer section End -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
